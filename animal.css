@@ -1,0 +1,32 @@
+body{
+    background-color:skyblue;
+}
+div{
+    border: 1px;
+    height:150px;
+    background-color:skyblue;
+    margin: 100px 0 100px 0;
+    justify-content: space-between;
+
+
+}
+.container{
+    display: flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    background-color: skyblue;   
+}
+.item{
+    width:150px;
+    border:2px;
+    border-radius: 10px;
+    border-color: black;
+    color:white;
+    font-size:500% ;
+    font-weight: bold;
+    text-align: center;
+    line-height: 150px;
+    background-color:cadetblue;
+    cursor: pointer;
+}
+
